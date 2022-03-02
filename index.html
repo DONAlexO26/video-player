@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/Syle.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+</head>
+<body>
+   <div class="wrapper">
+
+       <div class="player">
+           <div class="player-overlay">
+               <h3 class="player-title" id="titulito">Glass Animals - Heat Waves (Official Video)</h3>
+
+               <div class="player-action">
+                   <button  class="button" id="backward" aria-label="Retroceder 10 segundos" tittle="Retroceder 10 segundos"></button>
+                   <button  class="button" id="play" aria-label="Reproducir" tittle="Reproducir"></button>
+                   <button  class="button" hidden id ="pause" aria-label="Pausar" tittle="Pausar"></button>
+                   <button  class="button" id="forward" aria-label="Avanzar 10 segundos" tittle="Avanzar 10 segundos"></button>
+                </div>
+                   <div class="player-progress">
+
+                       <input id="progress" type="range" min="0" value="0" step="1">
+                   </div>
+           </div>
+           <video id="video" poster="./images/POSTER HEAT.jpg" src="./videos/y2mate.com - Glass Animals  Heat Waves Official Video_1080p.mp4" ></video>
+       </div>
+   </div>
+
+
+   <script src="./js/index.js"></script>
+</body>
+</html>
+
+
+
+
+

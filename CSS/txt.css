@@ -1,0 +1,19 @@
+
+
+#tittle { 
+    font-family: "Jetbrains Mono";
+}
+
+
+
+#subtittle {
+    font-family: "Arial Narrow";
+}
+
+.txt{
+   max-inline-size: 900px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
